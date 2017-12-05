@@ -1,0 +1,23 @@
+/**index.wxss**/
+.main-container{
+  height: 100%;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #9cbcad;
+}
+.main-container view{
+  width: 200rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+}
+.main-container .nav1{background: red;}
+.main-container .nav2{background: green;}
+.main-container .nav3{background: rebeccapurple;}
+.main-container .nav4{background: yellowgreen;}

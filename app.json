@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/question/question",
+    "pages/pass/pass",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#9cbcad",
+    "navigationBarTitleText": "唐诗三百首",
+    "navigationBarTextStyle":"wihte"
+  }
+}

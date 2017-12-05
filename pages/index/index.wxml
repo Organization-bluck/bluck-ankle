@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="main-container">
+  <view class='nav1'>在线诗库</view>
+  <view class='nav2'>相遇诗林</view>
+  <view class='nav3' bindtap='gotoPass'>答题闯关</view>
+  <view class='nav4'>答题记录</view>
+</view>

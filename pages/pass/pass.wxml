@@ -1,0 +1,6 @@
+<!--pages/pass/pass.wxml-->
+
+<view class="pass-container">
+  <view class='difficulty-model'>难 <text>（10道）</text></view>
+  <view class='easy-model' bindtap='gotoeasy'>易<text>（10道）</text></view>
+</view>
