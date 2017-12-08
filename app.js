@@ -34,6 +34,8 @@ App({
     // })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    defaultImg:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1512389738596&di=8c8ba20dd3d642540eb1334cfef8b2d4&imgtype=0&src=http%3A%2F%2Fwww.fengxuelin.com%2Fuploadfiles%2Fimage%2F20160518%2F20160518121052935293.jpg',
+    correctCount:0
   }
 })

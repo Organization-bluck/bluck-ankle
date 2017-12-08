@@ -1,14 +1,14 @@
 {
   "pages":[
-    "pages/index/index",
     "pages/question/question",
     "pages/pass/pass",
+    "pages/index/index",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#9cbcad",
-    "navigationBarTitleText": "唐诗三百首",
+    "navigationBarTitleText": "寻找诗和远方",
     "navigationBarTextStyle":"wihte"
   }
 }

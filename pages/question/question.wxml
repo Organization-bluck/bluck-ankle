@@ -1,22 +1,22 @@
 <!--pages/question/question.wxml-->
 <view class='q-container' style='background:url("../../images/bg.jpg") no-repeat'>
   <view class='page-group'>
-    <view wx:if="{{condition}}"> 上一题 </view>
-    <view wx:else>下一题</view>
+    <view bindtap='prev'> 上一题 </view>
+    <view bindtap='next'>下一题</view>
   </view>
   <view class='q-content'>
     <view class='q-header'>
-      <text class='title'>静夜思</text>
-      <text class='q-author'>李白</text>
+      <text class='title'>{{subject.title }}</text>
+      <text class='q-author'>{{subject.name }}</text>
     </view>
     <view class='q-main'>
-      <text>窗前明月光</text>
-      <input maxlength="5" focus="true"/>
-      <text>举头望明月</text>
-      <input maxlength="5" focus="true"/>
+      <text>{{subject.content.text0 }}</text>
+      <input maxlength="5" focus="true" bindinput="bindKeyInput1"/>
+      <text>{{subject.content.text2 }}</text>
+      <input maxlength="5" focus="true" bindinput="bindKeyInput2"/>
     </view>
-    <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1512389738596&di=8c8ba20dd3d642540eb1334cfef8b2d4&imgtype=0&src=http%3A%2F%2Fwww.fengxuelin.com%2Fuploadfiles%2Fimage%2F20160518%2F20160518121052935293.jpg' />
+    <image src='{{subject.bg_img}}' />
   </view>
-  <button>提交答案</button>
+  <button bindtap='submitAsw'>提交答案</button>
 
 </view>
